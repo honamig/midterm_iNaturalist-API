@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iNaturalist site</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>iNaturalist site</h1>
+
+    <form id="search-form">
+      <label for="place-input">Place Search</label>
+      <input
+        type="text"
+        id="place-input"
+        placeholder="Enter a location"
+        required
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <select id="place-results">
+        <option value="">Select a place</option>
+    </select>
+    <div id="identification-results"></div>
+  </body>
+</html>
